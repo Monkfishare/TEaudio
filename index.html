@@ -62,8 +62,23 @@
 			opacity: 100%; /* Adjust this value to make it more or less transparent */
 		}
 
-		@media (max-width: 767px) {
-			/* Apply styles for screens narrower than 768px (Mobile devices) */
+		@media (max-width: 768px), (orientation: landscape) {
+			/* Apply styles for screens narrower than 768px (phones in portrait mode) and landscape phone orientation */
+			#searchForm {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: flex-end;
+				position: fixed;
+				bottom: 1%;
+				left: 50%;
+				transform: translateX(-50%);
+				opacity: 1; /* Adjust this value to make it more or less transparent */
+			}
+		}
+
+		@media (max-width: 767px) and (orientation: portrait) {
+			/* Apply styles for screens narrower than 768px (Mobile devices in portrait mode) */
 			#searchForm {
 				flex-direction: column-reverse;
 				align-items: center;
@@ -82,6 +97,18 @@
 			}
 		}
 		
+		@media (max-width: 768px) and (orientation: landscape) {
+			/* Apply styles for screens narrower than 768px (phones in landscape mode) */
+			#searchForm {
+				bottom: auto;
+				top: 3%;
+				left: auto;
+				right: 1%;
+				transform: none;
+				justify-content: flex-start;
+			}
+		}
+
 		#searchDate {
 			color: #66CDAA; /* Medium Aquamarine color */
 			background-color: #5a5a5a; /* Dark background color */
@@ -118,6 +145,14 @@
 			transition: background-color 0.3s;
             width: 150%;
             box-sizing: border-box;
+		}
+
+		@media (max-width: 767px) and (orientation: landscape) {
+			/* Adjust button width for phones in landscape mode */
+			#searchForm button {
+				width: 90%;
+				padding-bottom: 20px;
+			}
 		}
 
 		/* Desktop Styles */
@@ -224,6 +259,13 @@
 			}
 		}
 
+		/* Media Query for Phone Screen Rotation */
+		@media screen and (max-width: 768px) and (orientation: landscape) {
+			.centered-cell img {
+				width: 20%; /* Adjust to 20% when phone screen is rotated */
+			}
+		}
+
 		.audio-container {
 			width: 50%; /* Set a maximum width for the container */
 			margin: 0 auto; /* Center horizontally */
@@ -233,6 +275,13 @@
 		@media (max-width: 768px) {
 			.audio-container {
 				width: 100%; /* Adjust for smaller screens */
+			}
+		}
+
+		/* Media Query for Phone Screen Rotation */
+		@media (max-width: 768px) and (orientation: landscape) {
+			.audio-container {
+				width: 80%; /* Adjust to 80% when phone screen is rotated */
 			}
 		}
 
