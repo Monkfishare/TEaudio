@@ -1,4 +1,5 @@
-# The Economist audio player [<img src="https://cdnlogo.com/logos/t/10/the-economist.svg" alt="The world in breif | The Economist" width="300px" />](https://www.economist.com/the-world-in-brief)
+[<img src="https://cdnlogo.com/logos/t/10/the-economist.svg" alt="The world in breif | The Economist" width="300px" />](https://www.economist.com/the-world-in-brief)
+# The Economist audio player 
 
 ![Static Badge](https://img.shields.io/badge/support-dark_mode_%7C_chapter_list_for_ios-pink)
 
