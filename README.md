@@ -1,7 +1,7 @@
 [<img src="https://cdnlogo.com/logos/t/10/the-economist.svg" alt="The world in breif | The Economist" width="300px" />](https://www.economist.com/the-world-in-brief)
 # The Economist audio player 
 
-![Static Badge](https://img.shields.io/badge/support-dark_mode_%7C_chapter_list_for_ios-pink)
+![Static Badge](https://img.shields.io/badge/support-dark_mode_%7C_chapter_list_for_ios-pink?logo=apple)
 
 ![Static Badge](https://img.shields.io/badge/starting_date_for_online_audio-2012--06--30-aqua)
 
