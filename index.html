@@ -331,7 +331,7 @@
     </style>
 </head>
 <body>
-	
+
 <!-- Dark Mode Switch Button -->
 <label for="darkModeSwitch" class="darkModeSwitch-larger-text">Dark Mode</label>
 <input type="checkbox" id="darkModeSwitch" checked> <!-- Set 'checked' attribute to enable by default -->
@@ -415,6 +415,9 @@
     </tr>
     <!-- Table rows will be dynamically added here using JavaScript -->
 </table>
+
+<!-- Reminder Text -->
+<div class="reminder-text" style="position: fixed; bottom: 2%; right: 2%;"><a href="https://github.com/Monkfishare/player/tree/main?tab=readme-ov-file#the-economist-audio-player" target="_blank" style="color: #529FDD; font-size: 20px; text-decoration: none; opacity: 60%;">❓</a>
 
 <script>
     function searchByDate() {
@@ -5194,7 +5197,7 @@
 								Your browser does not support the audio element.
 							</audio>
 						</div>
-						<div style="position: fixed; bottom: 1.8%; right: 2%;">
+						<div style="position: fixed; bottom: 2%; right: 2%;">
 							${AudioLink
 	                            ? `<div><a href="${row.audio}" style="color: #529FDD; font-size: 20px; text-decoration: none; opacity: 100%;">⏬</a></div>`
 								: '<p style="color: red; font-size: 24px;">No audio available.</p>'}
@@ -5208,9 +5211,5 @@
     }
 </script>
 
-<div style="position: fixed; bottom: 1.8%; right: 2%;">
-	<a href="https://github.com/Monkfishare/player?tab=readme-ov-file#the-economist-audio-player" target="_blank" style="font-size: 20px; text-decoration: none; opacity: 100%;">❓</a>
-</div>	
-				
 </body>
 </html>
