@@ -416,9 +416,6 @@
     <!-- Table rows will be dynamically added here using JavaScript -->
 </table>
 
-<!-- Reminder Text -->
-<div class="reminder-text" style="position: fixed; bottom: 2%; right: 2%;"><a href="https://github.com/Monkfishare/player/tree/main?tab=readme-ov-file#the-economist-audio-player" target="_blank" style="color: #529FDD; font-size: 20px; text-decoration: none; opacity: 60%;">❓</a>
-
 <script>
     function searchByDate() {
         const searchDate = document.getElementById('searchDate').value;
@@ -5199,7 +5196,7 @@
 						</div>
 						<div style="position: fixed; bottom: 2%; right: 2%;">
 							${AudioLink
-	                            ? `<div><a href="${row.audio}" style="color: #529FDD; font-size: 20px; text-decoration: none; opacity: 100%;">⏬</a></div>`
+	                            ? `<div><a href="${row.audio}" style="color: #529FDD; font-size: 20px; text-decoration: none; opacity: 40%;">⏬</a></div>`
 								: '<p style="color: red; font-size: 24px;">No audio available.</p>'}
 						</div>
                         </td>
