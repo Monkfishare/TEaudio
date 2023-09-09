@@ -1,4 +1,14 @@
-# TE audio
+# The Economist audio player [<img src="https://cdnlogo.com/logos/t/10/the-economist.svg" alt="The world in breif | The Economist" width="300px" />](https://www.economist.com/the-world-in-brief)
+
+![Static Badge](https://img.shields.io/badge/support-dark_mode_%7C_chapter_list_for_ios-pink)
+
+![Static Badge](https://img.shields.io/badge/starting_date_for_online_audio-2012--06--30-aqua)
+
+[![Static Badge](https://img.shields.io/badge/download_|-txt-mint)](https://monkfishare.github.io/player/audio_links.txt)
+[![Static Badge](https://img.shields.io/badge/|-xlsx-mint)](https://monkfishare.github.io/player/audio/output/link_accessibility/economist_audio_urls_accessibility.xlsx)
+[![Static Badge](https://img.shields.io/badge/|-playlist_(open_with_potplayer)-mint)](https://monkfishare.github.io/player/playlist.m3u)
+
+## TE audio
 Generating **The Economist** weekly magazine audio links using Python.
 
 ### 1. Environment configuration
