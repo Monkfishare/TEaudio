@@ -7,7 +7,7 @@
 
 [![Static Badge](https://img.shields.io/badge/download-txt-mint?logo=github)](https://monkfishare.github.io/player/audio_links.txt)
 [![Static Badge](https://img.shields.io/badge/xlsx-mint)](https://monkfishare.github.io/player/audio/output/link_accessibility/economist_audio_urls_accessibility.xlsx)
-[![Static Badge](https://img.shields.io/badge/playlist_(open_with_potplayer)-mint)](https://monkfishare.github.io/player/playlist.m3u)
+[![Static Badge](https://img.shields.io/badge/m3u_(open_with_potplayer)-mint)](https://monkfishare.github.io/player/playlist.m3u)
 
 [![Static Badge](https://img.shields.io/badge/unlock-bypass_paywalls_clean_filters-mint?logo=gitlab)](https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean#installation)
 
