@@ -3,7 +3,7 @@
 
 ![Static Badge](https://img.shields.io/badge/function-dark_mode_%7C_chapter_list_for_ios-pink?logo=apple)
 
-![Static Badge](https://img.shields.io/badge/starting_date_for_online_audio-2012--06--30-aqua)
+![Static Badge](https://img.shields.io/badge/starting_date_for_online_audio-2012--06--30-aqua?logo=applemusic)
 
 [![Static Badge](https://img.shields.io/badge/download-txt-mint?logo=github)](https://monkfishare.github.io/player/audio_links.txt)
 [![Static Badge](https://img.shields.io/badge/xlsx-mint)](https://monkfishare.github.io/player/audio/output/link_accessibility/economist_audio_urls_accessibility.xlsx)
