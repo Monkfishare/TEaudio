@@ -1,5 +1,5 @@
 [<img src="https://cdnlogo.com/logos/t/10/the-economist.svg" alt="The world in breif | The Economist" width="300px" />](https://www.economist.com/the-world-in-brief)
-## TE audio player 
+# TE audio player 
 
 ![Static Badge](https://img.shields.io/badge/function-dark_mode_%7C_chapter_list_for_iOS-pink?logo=apple)
 
