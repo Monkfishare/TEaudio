@@ -9,7 +9,12 @@
 [![Static Badge](https://img.shields.io/badge/xlsx-mint)](https://monkfishare.github.io/player/audio/output/link_accessibility/economist_audio_urls_accessibility.xlsx)
 [![Static Badge](https://img.shields.io/badge/m3u_(open_with_potplayer)-mint)](https://monkfishare.github.io/player/playlist.m3u)
 
+[![Static Badge](https://img.shields.io/badge/print-pdf-mint？logo=files)](https://www.920.im/the-economist-ebook-audio-weekly-update/)
+[![Static Badge](https://img.shields.io/badge/calibre-epub-mint)](https://calibre-ebook.com/download)
+
 [![Static Badge](https://img.shields.io/badge/unlock-bypass_paywalls_clean_filters-mint?logo=gitlab)](https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean#installation)
+
+[![Static Badge](https://img.shields.io/badge/extension-immersive_translate-lime?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAACKklEQVR4nGJ55dPJQC5gIlsntTUzyQqLri5gVpWAizDLCrPqy7PqyjHycaIpZoGzuOPtGFiYmfg4GTjYuPxN/73/wsDA8HXufq4gMw4XXZCKX38+Td35c99VLJq5fIz+/fj9/8dvBgYGVk0pBlZmZkGer3P3f1106NuakwzMTFxhFnzZ7m9O3/3/+QcWZ39bc/JjyzoGBoZPXZu/LT0KEfz3/uvfp+/+PnrzbeVxBjYWZgVR7H5m5GBl5OUAMXg4GDnZ0Hz4/8/ff19+MPz7j8XZIG/H2HKDGQINISihKMbHZqj46/Sdt5GTsAfYx65NDExMTGJ8vGkuX+Yf+Pv0HVyKM9icy8vw6xr+bwsPYdf86/Q9UMTIizAwMPy++uTPzWdQCXZWDgetf99/cbrofltyhOHvP+x+BgXP2y+fp+z8++IDXITdToOJi/1z/1YmAW42C1UU7yDcoC0jvDyPkZfjx86L/z9+Q7jZQ//Pg9f/3n39++IDp4c+dmczMDEy8XAwsjIjSzMrirGqSTEwMAj2xIC4EgJMEgL/YO5C2Pz3wRuGX3+4wiyZ5USYpYWYBEEBz+Gh//fD13e589/lzHuXv+Dft58c7npYbP7/+funqTv5st057LUYGBh+7Ln8ecYeDget79vO/33wGqLmx4FryMHGiJafGfk4WeRFGZgY/7378u/dFxYViT/3XsLTIyM/F4uC6O+bzxjAqRhdM0lg4AoDQAAAAP//cxfIMgwMQUgAAAAASUVORK5CYII=)](https://immersivetranslate.com/)
 
 ## TE audio
 Generating **The Economist** weekly magazine audio links using Python.
