@@ -1,4 +1,4 @@
-[<img src="https://cdnlogo.com/logos/t/10/the-economist.svg" alt="The world in breif | The Economist" width="200px" />](https://www.economist.com/#:~:text=stories%20most%20read%20by%20subscribers)
+[<img src="https://cdnlogo.com/logos/t/10/the-economist.svg" alt="The world in breif | The Economist" width="250px" />](https://www.economist.com/#:~:text=stories%20most%20read%20by%20subscribers)
 # TE audio player 
 
 ![Static Badge](https://img.shields.io/badge/function-dark_mode_%7C_chapter_list_for_iOS-pink?logo=apple)
