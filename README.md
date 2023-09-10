@@ -9,7 +9,7 @@
 [![Static Badge](https://img.shields.io/badge/xlsx-mint)](https://monkfishare.github.io/player/audio/output/link_accessibility/economist_audio_urls_accessibility.xlsx)
 [![Static Badge](https://img.shields.io/badge/m3u_(open_with_potplayer)-mint)](https://monkfishare.github.io/player/playlist.m3u)
 
-[![Static Badge](https://img.shields.io/badge/print-pdf-mint？logo=files)](https://www.920.im/the-economist-ebook-audio-weekly-update/)
+[![Static Badge](https://img.shields.io/badge/eBooks-pdf-mint?logo=gitbook)](https://www.920.im/the-economist-ebook-audio-weekly-update/)
 [![Static Badge](https://img.shields.io/badge/calibre-epub-mint)](https://calibre-ebook.com/download)
 
 [![Static Badge](https://img.shields.io/badge/unlock-bypass_paywalls_clean_filters-mint?logo=gitlab)](https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean#installation)
