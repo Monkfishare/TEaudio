@@ -371,9 +371,11 @@
         theme: "material_blue", // Use the "material_blue" theme for Fluent Design System colors
         allowInput: false, // Allow manual input of the date
         maxDate: new Date().fp_incr(2), // This sets the maxDate to today plus 2 days
-        weekStart: 1, // 1 corresponds to Monday, 0 is for Sunday, 2 for Tuesday, and so on
 		appendTo: document.body, // You can adjust this to a specific container if needed
     });
+
+    // Set Monday (1) as the first day of the week in the default flatpickr language
+    flatpickr.l10ns.default.firstDayOfWeek = 1; // 1 corresponds to Monday, 0 is for Sunday, 2 for Tuesday, and so on
 
     // Programmatically open the date picker after it has been initialized
     document.querySelector(".flatpickr")._flatpickr.open();
