@@ -355,6 +355,9 @@
     // Initialize Flatpickr without the "open" option
     flatpickr(".flatpickr", {
         dateFormat: "Y-m-d",
+        locale: {
+            firstDayOfWeek: 1, // Set Monday as the first day of the week (0 = Sunday, 1 = Monday, etc.)
+        },
 		disable: [
 			date => {
 				const isNotSaturday = date.getDay() !== 6;
@@ -373,9 +376,6 @@
         maxDate: new Date().fp_incr(2), // This sets the maxDate to today plus 2 days
 		appendTo: document.body, // You can adjust this to a specific container if needed
     });
-
-    // Set Monday (1) as the first day of the week in the default flatpickr language
-    flatpickr.l10ns.default.firstDayOfWeek = 1; // 1 corresponds to Monday, 0 is for Sunday, 2 for Tuesday, and so on
 
     // Programmatically open the date picker after it has been initialized
     document.querySelector(".flatpickr")._flatpickr.open();
