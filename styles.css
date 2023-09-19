@@ -209,11 +209,11 @@ body.dark-theme {
 }
 
 .dark-theme .flatpickr-calendar {
-	background-color: #ffdfe5 !important;
+	background-color: #4d4d4d !important;
 }
 
 .flatpickr-calendar {
-	background-color: #e0e0e0 !important;
+	background-color: pink !important;
 }
 
 .download-link {
