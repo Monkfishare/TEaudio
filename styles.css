@@ -126,7 +126,7 @@ body.dark-theme {
 @media (max-width: 768px) and (orientation: portrait) {
 .date-picker-container {
 	top: auto;
-	bottom: 6%;
+	bottom: 8%;
 	right: 50%;
 	transform: translateX(50%);
 	}
