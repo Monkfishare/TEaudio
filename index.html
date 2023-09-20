@@ -70,6 +70,7 @@
         // Remove clickOpens option
         // clickOpens: false,
         allowInput: false, // Allow manual input of the date
+	minDate: "2012-06-30",
         maxDate: new Date().fp_incr(2), // This sets the maxDate to today plus 2 days
 		appendTo: document.body, // You can adjust this to a specific container if needed
     });
@@ -101,22 +102,34 @@
 		const lightIcon = document.getElementById('light-icon');
 		const darkThemeLink = document.getElementById('flatpickr-dark-theme');
 		const lightThemeLink = document.getElementById('flatpickr-light-theme');
-	
-		// Check the user's preferred theme and set the initial icon and Flatpickr theme
-		if (localStorage.getItem('theme') === 'dark') {
-			document.body.classList.add('dark-theme');
-			darkIcon.style.display = 'none';
-			lightIcon.style.display = 'inline';
-			darkThemeLink.disabled = false; // Enable the dark theme link
-			lightThemeLink.disabled = true;  // Disable the light theme link
-		} else {
-			document.body.classList.remove('dark-theme');
-			darkIcon.style.display = 'inline';
-			lightIcon.style.display = 'none';
-			darkThemeLink.disabled = true;  // Disable the dark theme link
-			lightThemeLink.disabled = false; // Enable the light theme link
+		
+		// Check if the user's preference is set in local storage
+		const userPreference = localStorage.getItem('theme');
+
+		// Function to set the theme based on user's system preference
+		function setThemeBasedOnSystemPreference() {
+			const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+			if (userPreference === 'dark' || (userPreference !== 'light' && prefersDark)) {
+				document.body.classList.add('dark-theme');
+				darkIcon.style.display = 'none';
+				lightIcon.style.display = 'inline';
+				localStorage.setItem('theme', 'dark');
+				darkThemeLink.disabled = false; // Enable the dark theme link
+				lightThemeLink.disabled = true;  // Disable the light theme link
+			} else {
+				document.body.classList.remove('dark-theme');
+				darkIcon.style.display = 'inline';
+				lightIcon.style.display = 'none';
+				localStorage.setItem('theme', 'light');
+				darkThemeLink.disabled = true;  // Disable the dark theme link
+				lightThemeLink.disabled = false; // Enable the light theme link
+			}
 		}
-	
+
+		// Call the function to set the theme based on user or system preference
+		setThemeBasedOnSystemPreference();
+
 		// Toggle between dark and light modes when the button is clicked
 		themeSwitcher.addEventListener('click', () => {
 			if (document.body.classList.contains('dark-theme')) {
