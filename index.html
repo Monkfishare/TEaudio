@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TE Audio</title>
-	<link rel="apple-touch-icon" sizes="180x180" href="/player/favicon/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="/player/favicon/android-chrome-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/player/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="/player/favicon/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/player/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/player/favicon/site.webmanifest">
-    <link rel="mask-icon" href="/player/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="apple-touch-icon" sizes="180x180" href="https://monkfishare.github.io/player/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="https://monkfishare.github.io/player/favicon/android-chrome-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://monkfishare.github.io/player/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="https://monkfishare.github.io/player/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://monkfishare.github.io/player/favicon/favicon-16x16.png">
+    <link rel="manifest" href="https://monkfishare.github.io/player/favicon/site.webmanifest">
+    <link rel="mask-icon" href="https://monkfishare.github.io/player/favicon/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="msapplication-TileColor" content="#da532c">
-	<meta name="msapplication-TileImage" content="/player/favicon/mstile-150x150.png">
-	<meta name="msapplication-config" content="/player/favicon/browserconfig.xml">
+	<meta name="msapplication-TileImage" content="https://monkfishare.github.io/player/favicon/mstile-150x150.png">
+	<meta name="msapplication-config" content="https://monkfishare.github.io/player/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
-	<link rel="stylesheet" href="/player/styles.css">
+	<link rel="stylesheet" href="https://monkfishare.github.io/player/styles.css">
 </head>
 <body>
 
@@ -46,7 +46,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/themes/dark.css" id="flatpickr-dark-theme" disabled>
 
 <!-- Include Flatpickr Light Theme CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/flatpickr.min.css" id="flatpickr-light-theme">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/themes/light.css" id="flatpickr-light-theme">
 
 <!-- Include Flatpickr JS and initialize -->
 <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
@@ -162,7 +162,7 @@
 <script>
     async function loadData() {
         try {
-            const response = await fetch('/player/data.json');
+            const response = await fetch('https://monkfishare.github.io/player/data.json');
             const data = await response.json();
             return data;
         } catch (error) {
