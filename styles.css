@@ -247,8 +247,9 @@ body.dark-theme {
 	font-weight: bold !important;
 }
 
-.dark-theme .flatpickr-day.flatpickr-disabled {
-	color: rgba(255,255,255,0.2) !important;
+.dark-theme .flatpickr-day.flatpickr-disabled, 
+.dark-theme .flatpickr-day.flatpickr-disabled:hover {
+	color: rgba(255,255,255,0.1) !important;
 	background: transparent !important;
 	font-weight: normal !important;
 }
@@ -321,8 +322,9 @@ body.dark-theme {
   color: #fff !important;
 }
 
-.flatpickr-day.flatpickr-disabled {
-	color: rgba(72,72,72,0.2) !important;
+.flatpickr-day.flatpickr-disabled, 
+.flatpickr-day.flatpickr-disabled:hover {
+	color: rgba(72,72,72,0.1) !important;
 	background: transparent !important;
 	font-weight: normal !important;
 }
