@@ -206,6 +206,7 @@ body.dark-theme {
 .dark-theme #searchButtonHidden {
 	background-color: black;		
 	color: black;
+}
 
 .download-link {
 	position: fixed;
