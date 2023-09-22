@@ -29,9 +29,9 @@ body {
 	transition: box-shadow 0.3s ease-in-out;
 }
 
-/* Dark mode */
-body.dark-mode .centered-cell img {
-	box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.9); /* Lighter shadow in dark mode */
+/* Dark theme */
+.dark-theme .centered-cell img {
+	box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.3); /* Lighter shadow in dark mode */
 }
 
 /* Media Query for Mobile Devices */
