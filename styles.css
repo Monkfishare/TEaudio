@@ -235,12 +235,11 @@ body.dark-theme {
 .dark-theme .flatpickr-months .flatpickr-month {
 	border-radius: 5px 5px 0 0; 
 	background: #20222c !important;
-	color: #fff !important;
 }
 
+.dark-theme .flatpickr-months .flatpickr-month,
 .dark-theme span.flatpickr-weekday,
 .dark-theme .flatpickr-current-month .flatpickr-monthDropdown-months,
 .dark-theme .flatpickr-weekdays {
 	background: #20222c !important;
-	color: #fff !important;
 }
