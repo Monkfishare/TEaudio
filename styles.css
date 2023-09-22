@@ -31,7 +31,7 @@ body {
 
 /* Dark theme */
 .dark-theme .centered-cell img {
-	box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.3); /* Lighter shadow in dark mode */
+	box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.15); /* Lighter shadow in dark mode */
 }
 
 /* Media Query for Mobile Devices */
