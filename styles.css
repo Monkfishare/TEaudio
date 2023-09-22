@@ -306,6 +306,7 @@ body.dark-theme {
 .dark-theme .flatpickr-day.nextMonthDay, 
 .dark-theme .flatpickr-day.flatpickr-disabled:hover {
 		cursor: not-allowed !important;
+		color: black !important;
 }
 
 .dark-theme .flatpickr-day.today {
