@@ -31,7 +31,7 @@ body {
 
 /* Dark mode */
 body.dark-mode .centered-cell img {
-	box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.15); /* Lighter shadow in dark mode */
+	box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.3); /* Lighter shadow in dark mode */
 }
 
 /* Media Query for Mobile Devices */
@@ -242,4 +242,9 @@ body.dark-theme {
 .dark-theme .flatpickr-current-month .flatpickr-monthDropdown-months,
 .dark-theme .flatpickr-weekdays {
 	background: #20222c !important;
+}
+
+.dark-theme .flatpickr-calendar {
+	-webkit-box-shadow: 1px 0 0 #20222c, -1px 0 0 #20222c, 0 1px 0 #20222c, 0 -1px 0 #20222c, 0 3px 13px rgba(255, 255, 255, 0.08) !important;
+		box-shadow: 1px 0 0 #20222c, -1px 0 0 #20222c, 0 1px 0 #20222c, 0 -1px 0 #20222c, 0 3px 13px rgba(255, 255, 255, 0.08) !important;
 }
