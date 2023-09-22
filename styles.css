@@ -206,15 +206,6 @@ body.dark-theme {
 .dark-theme #searchButtonHidden {
 	background-color: black;		
 	color: black;
-}
-
-.dark-theme .flatpickr-calendar {
-	background-color: #3f4458 !important;
-}
-
-.flatpickr-calendar {
-	background-color: pink !important;
-}
 
 .download-link {
 	position: fixed;
@@ -239,3 +230,16 @@ body.dark-theme {
 	right: 13%;
 	transform: translateX(50%)
 }	
+
+.dark-theme .flatpickr-months .flatpickr-month {
+	border-radius: 5px 5px 0 0; 
+	background: #20222c !important;
+	color: #fff !important;
+}
+
+.dark-theme span.flatpickr-weekday,
+.dark-theme .flatpickr-current-month .flatpickr-monthDropdown-months,
+.dark-theme .flatpickr-weekdays {
+	background: #20222c !important;
+	color: #fff !important;
+}
