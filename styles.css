@@ -302,6 +302,7 @@ body.dark-theme {
   border-color: transparent !important;
 }
 
+.dark-theme .flatpickr-day.flatpickr-disabled:hover,
 .dark-theme .flatpickr-day.prevMonthDay,
 .dark-theme .flatpickr-day.nextMonthDay {
 		color: rgba(255,255,255,0.3) !important;
