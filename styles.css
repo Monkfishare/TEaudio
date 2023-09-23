@@ -198,16 +198,6 @@ body.dark-theme {
 	color: #fff;
 }
 
-#bottomButton:hover {
-	background: pink;
-	border-radius: 20px;
-	padding: 5px;
-}
-
-.dark-theme #bottomButton:hover {
-	background: grey;
-}
-
 .dark-theme .date-picker-container,
 .dark-theme #searchDate,
 .dark-theme #searchButton {
@@ -224,7 +214,7 @@ body.dark-theme {
 	top: auto;
 	bottom: 1%;
 	left: 33%;
-	transform: translateX(50%)
+	transform: translateX(50%);
 }
 
 .current-edition-article {
@@ -232,7 +222,7 @@ body.dark-theme {
 	top: auto;
 	bottom: 1%;
 	right: 33%;
-	transform: translateX(50%)
+	transform: translateX(50%);
 }
 
 .github-readme {
@@ -240,7 +230,7 @@ body.dark-theme {
 	top: auto;
 	bottom: 1%;
 	right: 13%;
-	transform: translateX(50%)
+	transform: translateX(50%);
 }	
 
 .dark-theme .flatpickr-months .flatpickr-month,
@@ -319,22 +309,20 @@ body.dark-theme {
 }
 
 .dark-theme .flatpickr-day.today {
-  border-color: #eee !important;
+  border-color: #3f4458 !important;
 }
 
 .dark-theme .flatpickr-day.today:hover,
 .dark-theme .flatpickr-day.today:focus {
-  background: #eee !important;
   color: #3f4458 !important;
 }
 
 .flatpickr-day.today {
-  border-color: #bbb !important;
+  border-color: #fff !important;
 }
 
 .flatpickr-day.today:hover,
 .flatpickr-day.today:focus {
-  background: #bbb !important;
   color: #fff !important;
 }
 
