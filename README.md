@@ -1,7 +1,7 @@
 [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/The_Economist_Logo.svg/2560px-The_Economist_Logo.svg.png" alt="Top stories | The Economist" />](https://www.economist.com/#:~:text=stories%20most%20read%20by%20subscribers)
 # TE audio player 
 
-![Static Badge](https://img.shields.io/badge/function-dark_mode_%7C_chapter_list_for_iOS-pink?logo=apple)
+![Static Badge](https://img.shields.io/badge/core_function-chapter_list_for_iOS_native_audio_player-pink?logo=apple)
 
 ![Static Badge](https://img.shields.io/badge/starting_date_for_online_audio-2012--06--30-aqua?logo=applemusic)
 
