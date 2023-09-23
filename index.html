@@ -19,11 +19,11 @@
 </head>
 <body>
 
-<div class="github-readme">
+<div class="github-readme" title="GitHub">
 	<a href="https://github.com/Monkfishare/player?tab=readme-ov-file#readme" target="_blank" id="bottomButton"><i class="fa-brands fa-github"></i></a>
 </div>
 
-<div class="theme-toggle">
+<div class="theme-toggle" title="Theme">
 	<button id="theme-switcher">
 		<i id="dark-icon" class="fas fa-moon"></i>
 		<i id="light-icon" class="fas fa-sun"></i>
@@ -193,7 +193,7 @@
                     <tr>
                         <td class="centered-cell">
                             <img src="${ImageLink}" alt="Image" class="image">
-                            <div class="current-edition-article">
+                            <div class="current-edition-article" title="Article ${row.date}">
                                 <a href="https://www.economist.com/weeklyedition/${row.date}" target="_blank" id="bottomButton"><i class="fa-regular fa-newspaper"></i></a>
                             </div>
                             <div>
@@ -202,7 +202,7 @@
                                     Your browser does not support the audio element.
                                 </audio>
                             </div>
-                            <div class="download-link"
+                            <div class="download-link" title="Audio ${row.date}"
                                 ${AudioLink ? `<div><a href="${row.audio}" id="bottomButton"><i class="fas fa-circle-down"></i></a></div>` : 'No audio available.'}
                             </div>
                         </td>
