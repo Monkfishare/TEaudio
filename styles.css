@@ -191,10 +191,21 @@ body.dark-theme {
 #bottomButton {
 	decoration: none;
 	color: #333;
+	cursor: pointer;
 }
 
 .dark-theme #bottomButton {
 	color: #fff;
+}
+
+#bottomButton:hover {
+	background: pink;
+	border-radius: 20px;
+	padding: 5px;
+}
+
+.dark-theme #bottomButton:hover {
+	background: grey;
 }
 
 .dark-theme .date-picker-container,
