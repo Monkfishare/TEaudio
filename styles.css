@@ -312,18 +312,8 @@ body.dark-theme {
   border-color: #3f4458 !important;
 }
 
-.dark-theme .flatpickr-day.today:hover,
-.dark-theme .flatpickr-day.today:focus {
-  color: #3f4458 !important;
-}
-
 .flatpickr-day.today {
   border-color: #fff !important;
-}
-
-.flatpickr-day.today:hover,
-.flatpickr-day.today:focus {
-  color: #fff !important;
 }
 
 .flatpickr-day.flatpickr-disabled, 
