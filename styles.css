@@ -204,7 +204,7 @@ body.dark-theme {
 .theme-toggle, .current-edition-article, .download-link, .github-readme {
      	text-align: center;
 	position: fixed;
-    	bottom: 1%;
+    	bottom: 0;
     	transform: translateX(-50%);
 }
 
@@ -217,11 +217,11 @@ body.dark-theme {
 }
 
 .current-edition-article {
-	right: 40%;
+	left: 60%;
 }
 
 .github-readme {
-	right: 20%;
+	left: 80%;
 }
 
 .current-edition-article span,
