@@ -122,7 +122,7 @@ body.dark-theme {
 .date-picker-container {
 	top: auto;
 	bottom: 9%;
-	left: 50%;
+	right: 50%;
 	transform: translateX(50%);
 	}
 }
