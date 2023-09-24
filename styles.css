@@ -81,12 +81,7 @@ body {
 	border: none;
 	cursor: pointer;
 	outline: none;
-	font-size: 16px;
-	position: fixed;
-	top: auto;
-	bottom: 1%;
-	left: 3.5%;
-	transform: translateX(50%)	
+	font-size: 16px;	
 }
 
 /* Styles for the dark mode icon */
@@ -156,7 +151,8 @@ body.dark-theme {
 }
 
 /* Style the search button */
-#searchButton {
+#searchButton,
+#searchButtonHidden {
 	background-color: white;
 	color: #757575;
 	font-size: 16px;
@@ -168,14 +164,7 @@ body.dark-theme {
 }
 
 #searchButtonHidden {
-	background-color: white;
 	color: white;
-	font-size: 16px;
-	border: none;
-	border-radius: 10px;
-	padding: 10px;
-	width: 60px;
-	cursor: pointer;
 }
 
 /* Style the search button icon */
@@ -190,11 +179,14 @@ body.dark-theme {
 
 #bottomButton {
 	decoration: none;
+	text-decoration: none;
 	color: #333;
 	cursor: pointer;
+	position: relative;
 }
 
-.dark-theme #bottomButton {
+.dark-theme #bottomButton,
+.dark-theme .theme-toggle span {
 	color: #fff;
 }
 
@@ -209,28 +201,34 @@ body.dark-theme {
 	color: black;
 }
 
-.download-link {
+.theme-toggle, .current-edition-article, .download-link, .github-readme {
+     	text-align: center;
 	position: fixed;
-	top: auto;
-	bottom: 1%;
-	left: 33%;
-	transform: translateX(50%);
+    	bottom: 1%;
+    	transform: translateX(-50%);
+}
+
+.theme-toggle {
+	left: 20%;
+}
+
+.download-link {
+	left: 40%;
 }
 
 .current-edition-article {
-	position: fixed;
-	top: auto;
-	bottom: 1%;
-	right: 33%;
-	transform: translateX(50%);
+	right: 40%;
 }
 
 .github-readme {
-	position: fixed;
-	top: auto;
-	bottom: 1%;
-	right: 13%;
-	transform: translateX(50%);
+	right: 20%;
+}
+
+.current-edition-article span,
+.download-link span,
+.github-readme span,
+.theme-toggle span {
+	font-size: x-small;
 }	
 
 .dark-theme .flatpickr-months .flatpickr-month,
