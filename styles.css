@@ -121,8 +121,8 @@ body.dark-theme {
 @media (max-width: 768px) and (orientation: portrait) {
 .date-picker-container {
 	top: auto;
-	bottom: 8%;
-	right: 50%;
+	bottom: 9%;
+	left: 50%;
 	transform: translateX(50%);
 	}
 }
@@ -130,7 +130,7 @@ body.dark-theme {
 /* Media query for mobile devices in landscape mode */
 @media (max-width: 768px) and (orientation: landscape) {
 .date-picker-container {
-	top: -10px;
+	top: 0;
 	}
 }
 
