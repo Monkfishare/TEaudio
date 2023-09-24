@@ -229,7 +229,11 @@ body.dark-theme {
 .github-readme span,
 .theme-toggle span {
 	font-size: x-small;
-}	
+}
+
+.theme-toggle span {
+	color: #333;
+}
 
 .dark-theme .flatpickr-months .flatpickr-month,
 .dark-theme .flatpickr-weekday,
