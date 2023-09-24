@@ -62,11 +62,10 @@
 		disable: [
 			date => {
 				const isNotSaturday = date.getDay() !== 6;
-				const isBeforeJune232012 = date < new Date("2012-06-23");
 				const isLastSaturdayOfYear = date.getMonth() === 11 && date.getDate() >= 25;
 				const isFirstSaturdayOfAugust2022 = date.getMonth() === 7 && date.getFullYear() >= 2022 && date.getDay() === 6 && date.getDate() <= 7;
 
-				return isNotSaturday || isBeforeJune232012 || isLastSaturdayOfYear || isFirstSaturdayOfAugust2022;
+				return isNotSaturday || isLastSaturdayOfYear || isFirstSaturdayOfAugust2022;
 			}
 		],
         // Remove clickOpens option
