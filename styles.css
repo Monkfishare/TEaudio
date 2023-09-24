@@ -177,7 +177,8 @@ body.dark-theme {
 	background-color: pink !important;
 }
 
-#bottomButton {
+#bottomButton,
+.theme-toggle span {
 	decoration: none;
 	text-decoration: none;
 	color: #333;
@@ -229,10 +230,6 @@ body.dark-theme {
 .github-readme span,
 .theme-toggle span {
 	font-size: x-small;
-}
-
-.theme-toggle span {
-	color: #333;
 }
 
 .dark-theme .flatpickr-months .flatpickr-month,
