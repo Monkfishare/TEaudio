@@ -1,58 +1,37 @@
-## [经济学人  2023更新](https://github.com/Monkfishare/TEaudio?tab=readme-ov-file#readme)
+[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/The_Economist_Logo.svg/2560px-The_Economist_Logo.svg.png" alt="Top stories | The Economist" />](https://www.economist.com/#:~:text=stories%20most%20read%20by%20subscribers)
+# TE audio player 
 
-1. ### **官方网站：**
+![Static Badge](https://img.shields.io/badge/core_function-chapter_list_for_iOS_native_audio_player-pink?logo=apple)
 
-   - **[TE官网](https://www.economist.com)**         **[专题报道](https://www.economist.com/reports)**      **[历史期刊](https://www.economist.com/weeklyedition/archive)**
-   - **[全球新闻](https://www.economist.com/the-world-in-brief)**      **[阅读榜单](https://www.economist.com/#:~:text=stories%20most%20read%20by%20subscribers)**      **[1843杂志](https://www.economist.com/1843)**
-   - **[TE商论](https://www.businessreview.global)**
+![Static Badge](https://img.shields.io/badge/starting_date_for_online_audio-2012--06--30-aqua?logo=applemusic)
 
-2. ### 音频在线：（2012.06.30——最新）
+[![Static Badge](https://img.shields.io/badge/download-txt-mint?logo=github)](https://monkfishare.github.io/TEaudio/audio_links.txt)
+[![Static Badge](https://img.shields.io/badge/xlsx-mint)](https://monkfishare.github.io/TEaudio/audio/output/link_accessibility/economist_audio_urls_accessibility.xlsx)
+[![Static Badge](https://img.shields.io/badge/m3u_(open_with_potplayer)-mint)](https://monkfishare.github.io/TEaudio/playlist.m3u)
 
-   - https://monkfishare.github.io/TEaudio
-   - iOS原生HTML音频播放器能显示章节播放列表，可便捷跳转章节音频，很实用！
+[![Static Badge](https://img.shields.io/badge/eBooks-pdf-mint?logo=gitbook)](https://www.920.im/the-economist-ebook-audio-weekly-update/)
+[![Static Badge](https://img.shields.io/badge/calibre-epub-mint)](https://calibre-ebook.com/download)
 
-3. ### 播放列表：（2012.03.03——最新）
+[![Static Badge](https://img.shields.io/badge/unlock-bypass_paywalls_clean_filters-mint?logo=gitlab)](https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean#installation)
 
-   - [**m3u**](https://monkfishare.github.io/TEaudio/playlist.m3u) (推荐PC端使用[**potplayer**](https://potplayer.daum.net/)播放器打开，使用快捷键“H”切换播放列表)
+[![Static Badge](https://img.shields.io/badge/extension-immersive_translate-mint?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAACKklEQVR4nGJ55dPJQC5gIlsntTUzyQqLri5gVpWAizDLCrPqy7PqyjHycaIpZoGzuOPtGFiYmfg4GTjYuPxN/73/wsDA8HXufq4gMw4XXZCKX38+Td35c99VLJq5fIz+/fj9/8dvBgYGVk0pBlZmZkGer3P3f1106NuakwzMTFxhFnzZ7m9O3/3/+QcWZ39bc/JjyzoGBoZPXZu/LT0KEfz3/uvfp+/+PnrzbeVxBjYWZgVR7H5m5GBl5OUAMXg4GDnZ0Hz4/8/ff19+MPz7j8XZIG/H2HKDGQINISihKMbHZqj46/Sdt5GTsAfYx65NDExMTGJ8vGkuX+Yf+Pv0HVyKM9icy8vw6xr+bwsPYdf86/Q9UMTIizAwMPy++uTPzWdQCXZWDgetf99/cbrofltyhOHvP+x+BgXP2y+fp+z8++IDXITdToOJi/1z/1YmAW42C1UU7yDcoC0jvDyPkZfjx86L/z9+Q7jZQ//Pg9f/3n39++IDp4c+dmczMDEy8XAwsjIjSzMrirGqSTEwMAj2xIC4EgJMEgL/YO5C2Pz3wRuGX3+4wiyZ5USYpYWYBEEBz+Gh//fD13e589/lzHuXv+Dft58c7npYbP7/+funqTv5st057LUYGBh+7Ln8ecYeDget79vO/33wGqLmx4FryMHGiJafGfk4WeRFGZgY/7378u/dFxYViT/3XsLTIyM/F4uC6O+bzxjAqRhdM0lg4AoDQAAAAP//cxfIMgwMQUgAAAAASUVORK5CYII=)](https://immersivetranslate.com/)
 
-4. ### 批量下载：（2007.05.26——最新）
+## TE audio
+Generating **The Economist** weekly magazine audio links using Python.
 
-   - [**txt**](https://monkfishare.github.io/TEaudio/audio_links.txt)
+### 1. Environment configuration
 
-   - [**xlsx**](https://monkfishare.github.io/TEaudio/audio/output/link_accessibility/economist_audio_urls_accessibility.xlsx)
+Install required dependencies
 
-5. ### 批量生成：（2007.05.26——自定义时间）
+```shell
+pip install -r requirements.txt
+```
+### 2.  Run python code to fetch audio links
 
-   - [**python**](https://monkfishare.github.io/TEaudio/audio/audio_links.py)
-   - [**环境配置**](https://monkfishare.github.io/TEaudio/audio/requirements.txt)(运行python脚本所需)
-
-6. ### 无限制阅读：
-
-   - [**Bypass Paywalls Clean for all desktop**](https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean#installation)
-
-   - [**iOS/iPadOS**](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters)：[**Adguard**](https://adguard.com/)应用—Safari浏览器保护—用户规则—右上角导入[**过滤规则**](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/blob/main/bpc-paywall-filter.txt?ref_type=heads)
-   - [**Android**](https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean#android)
-
-7. ### 沉浸式翻译：
-
-   - https://immersivetranslate.com
-   - 彩云小译官方测试[**Token**](https://docs.caiyunapp.com/blog/2018/09/03/lingocloud-api/#%E7%94%B3%E8%AF%B7%E8%AE%BF%E9%97%AE%E4%BB%A4%E7%89%8C)：`3975l6lr5pcbvidl6jl2`
-
-8. ### **TE商论**：
-
-   - **[无限制阅读](https://greasyfork.org/en/scripts/441874-%E5%AD%A6%E4%BA%BAvip)**
-   - **[最新PDF](https://monkfishare.github.io/TEGBR/TE_GBR.pdf)**
-
-9. ### **自制经济学人PDF：**
-
-   - [taizihuang/TheEconomist](https://github.com/taizihuang/TheEconomist)
-   - [Monkfishare/TEpdf](https://github.com/Monkfishare/TEpdf)
-
-10. ### **自制经济学人epub：**
-
-   - 下载安装[**calibre**](https://calibre-ebook.com/download)软件；
-   - 在软件界面点击“**获取新闻**”；
-   - 在弹出的界面里面搜索“**economist**”；
-   - 选择搜索出来的“The Economist”，注意图标logo是⚠`红底白字`，点“**立即下载**”；
-   - 点击右下角"**任务**"查看下载进度及文件；
-   - ⚠需要科学上网。
+```python
+python audio_links.py
+```
+### 3.  Install [python](https://www.python.org/downloads/) for Windows
+- Double-click the downloaded installer (.exe) file.
+- Check the box that says "**`Add Python x.x to PATH`**" during the installation process. This will automatically add Python to your system's PATH.
+  
