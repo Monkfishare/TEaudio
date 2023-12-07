@@ -193,13 +193,13 @@
                 const newRow = `
                     <tr>
                         <td class="centered-cell">
-                            <img src="${ImageLink}" alt="Image" class="image">
+                            <img src="${ImageLink}" alt="Image" class="image" loading="lazy">
                             <div class="current-edition-article" title="${row.date}">
                                 <a href="https://www.economist.com/weeklyedition/${row.date}" target="_blank" id="bottomButton"><i class="fa-regular fa-newspaper"></i><br>
 				<span>Article</span></a>
                             </div>
                             <div>
-                                <audio controls class="audio-container">
+                                <audio controls class="audio-container" preload="none">
                                     ${AudioLink ? `<source src="${AudioLink}" type="audio/mp4">` : 'No audio available.'}
                                     Your browser does not support the audio element.
                                 </audio>
