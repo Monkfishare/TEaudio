@@ -186,7 +186,7 @@
         // Append matching rows to the table
         data.forEach(row => {
             if (row.date === searchDate) {
-                const AudioLink = row.audio ? row.audio.replace('.zip', '.m4a') : null;
+                const AudioLink = row.audio ? row.audio.replace('.m4a', '.zip') : null;
                 console.log("AudioLink:", AudioLink);
                 const ImageLink = row.image.replace('5000/5000', '2000/2000');
 
@@ -200,12 +200,12 @@
                             </div>
                             <div>
                                 <audio controls class="audio-container" preload="auto">
-                                    ${AudioLink ? `<source src="${AudioLink}" type="audio/mp4">` : 'No audio available.'}
+                                    ${AudioLink ? `<source src="${row.audio}" type="audio/mp4">` : 'No audio available.'}
                                     Your browser does not support the audio element.
                                 </audio>
                             </div>
                             <div class="download-link" title="${row.date}"
-                                ${AudioLink ? `<div><a href="${row.audio}" id="bottomButton"><i class="fas fa-circle-down"></i><br>
+                                ${AudioLink ? `<div><a href="${AudioLink}" id="bottomButton"><i class="fas fa-circle-down"></i><br>
 				<span>Audio</span></a></div>` : 'No audio available.'}
                             </div>
                         </td>
