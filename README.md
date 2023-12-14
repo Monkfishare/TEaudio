@@ -34,4 +34,16 @@ python audio_links.py
 ### 3.  Install [python](https://www.python.org/downloads/) for Windows
 - Double-click the downloaded installer (.exe) file.
 - Check the box that says ⚠"**`Add Python x.x to PATH`**"⚠ during the installation process. This will automatically add Python to your system's PATH.
-  
+
+## Disclaimer
+
+This repository contains Python scripts designed to generate audio links from The Economist's CDN for personal and non-commercial use. The purpose of this project is to enhance accessibility and convenience for users.
+
+**Caution:**
+
+1. Respect the terms of service of The Economist and GitHub. Be aware that using this script may be subject to the terms and conditions of the platform you are interacting with.
+2. GitHub has policies against hosting certain types of content or engaging in activities that may lead to account suspension.
+
+The maintainers of this repository do not endorse or encourage any misuse of this content. Users are advised to comply with the terms of service of The Economist and GitHub. The maintainers are not responsible for any consequences resulting from the use of this repository, including potential actions taken by GitHub.
+
+Use this repository responsibly and at your own risk.
