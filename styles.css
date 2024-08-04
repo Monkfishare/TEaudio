@@ -1,0 +1,328 @@
+/* Fluent Design System Styles */
+body {
+	font-family: "Segoe UI", Arial, sans-serif;
+	background-color: #f0f0f0;
+}
+
+#resultTable {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.centered-cell {
+	width: 450px;
+	text-align: center;
+	border: none; /* Remove any borders */
+	background-color: transparent; /* Set background to transparent */
+	padding: 0; /* Remove padding */
+	margin: 0; /* Remove margins */
+}
+
+.centered-cell img {
+	width: 26%; /* Set to 26% on larger screens */
+	height: auto;
+	border: 0px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+	display: block;
+	margin: 2px auto 0;
+	transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Dark theme */
+.dark-theme .centered-cell img {
+	box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.15); /* Lighter shadow in dark mode */
+}
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 768px) {
+	.centered-cell img {
+		width: 82%; /* Adjust to 82% on smaller screens */
+		max-width: 100%;
+	}
+}
+
+/* Media Query for Phone Screen Rotation */
+@media screen and (max-width: 768px) and (orientation: landscape) {
+	.centered-cell img {
+		width: 25%; /* Adjust to 25% when phone screen is rotated */
+	}
+}
+
+.audio-container {
+	width: 50%; /* Set a maximum width for the container */
+	margin: 0 auto; /* Center horizontally */
+	padding-top: 15px;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+	.audio-container {
+		width: 100%; /* Adjust for smaller screens */
+	}
+}
+
+/* Media Query for Phone Screen Rotation */
+@media (max-width: 768px) and (orientation: landscape) {
+	.audio-container {
+		width: 80%; /* Adjust to 80% when phone screen is rotated */
+	}
+}
+
+/* Styles for the button container */
+.theme-toggle {
+	<!-- text-align: center; -->
+	<!-- margin: 20px;		 -->
+}
+
+/* Styles for the toggle button */
+#theme-switcher {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	font-size: 16px;	
+}
+
+/* Styles for the dark mode icon */
+#dark-icon {
+	color: #000;
+	display: inline;
+}
+
+/* Styles for the light mode icon (hidden by default) */
+#light-icon {
+	color: #fff;
+	display: none;
+}
+
+/* Dark mode styles applied to the body */
+body.dark-theme {
+	background-color: #333;
+	color: #fff;
+}		
+
+/* Style the date-picker-container */
+.date-picker-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 200px;
+	<!-- padding: 1px; -->
+	border: 1px solid #ffffff;
+	border-radius: 10px;
+	background-color: white;
+	position: fixed;
+	top: 2%;
+	right: 5%;
+}
+
+/* Media query for mobile devices in portrait mode */
+@media (max-width: 768px) and (orientation: portrait) {
+.date-picker-container {
+	top: auto;
+	bottom: 9%;
+	right: 50%;
+	transform: translateX(50%);
+	}
+}
+
+/* Media query for mobile devices in landscape mode */
+@media (max-width: 768px) and (orientation: landscape) {
+.date-picker-container {
+	top: 0;
+	}
+}
+
+/* Style the date picker input */
+#searchDate {
+	color: #66CDAA; /* Medium Aquamarine color */
+	background-color: white;		  
+	font-weight: bold;
+	font-size: 16px;
+	width: 90%;
+	<!-- text-align: center; -->
+	<!-- opacity: 80%; -->
+	flex: 1;
+	padding: 5px;
+	border: none;
+	border-radius: 10px;
+	outline: none;
+}
+
+/* Style the search button */
+#searchButton,
+#searchButtonHidden {
+	background-color: white;
+	color: #757575;
+	font-size: 16px;
+	border: none;
+	border-radius: 10px;
+	padding: 10px;
+	width: 60px;
+	cursor: pointer;
+}
+
+#searchButtonHidden {
+	color: white;
+}
+
+/* Style the search button icon */
+#searchButton i {
+	margin-right: 0px;
+}
+
+/* Style the search button on hover */
+#searchButton:hover, #searchButtonHidden:hover {
+	background-color: pink !important;
+}
+
+#bottomButton,
+.theme-toggle span {
+	decoration: none;
+	text-decoration: none;
+	color: #333;
+	cursor: pointer;
+	position: relative;
+}
+
+.dark-theme #bottomButton,
+.dark-theme .theme-toggle span {
+	color: #fff;
+}
+
+.dark-theme .date-picker-container,
+.dark-theme #searchDate,
+.dark-theme #searchButton {
+	background-color: black;
+}
+
+.dark-theme #searchButtonHidden {
+	background-color: black;		
+	color: black;
+}
+
+.theme-toggle, .current-edition-article, .download-link, .github-readme {
+     	text-align: center;
+	position: fixed;
+    	bottom: 0;
+    	transform: translateX(-50%);
+}
+
+.theme-toggle {
+	left: 20%;
+}
+
+.download-link {
+	left: 40%;
+}
+
+.current-edition-article {
+	left: 60%;
+}
+
+.github-readme {
+	left: 80%;
+}
+
+.current-edition-article span,
+.download-link span,
+.github-readme span,
+.theme-toggle span {
+	font-size: x-small;
+}
+
+.dark-theme .flatpickr-months .flatpickr-month,
+.dark-theme .flatpickr-weekday,
+.dark-theme .flatpickr-current-month .flatpickr-monthDropdown-months,
+.dark-theme .flatpickr-weekdays {
+	background: #20222c !important;
+	/* color: pink !important; */
+	/* font-weight: bold !important; */
+}
+
+.dark-theme .flatpickr-day {
+	color: pink !important;
+	background: #20222c !important;
+	font-weight: bold !important;
+}
+
+.dark-theme .flatpickr-day.flatpickr-disabled, 
+.dark-theme .flatpickr-day.flatpickr-disabled:hover {
+	color: rgba(255,255,255,0.1) !important;
+	background: transparent !important;
+	font-weight: normal !important;
+}
+
+.flatpickr-day {
+	color: #333 !important;
+	background: pink !important;
+	font-weight: bold !important;
+}
+
+.dark-theme .flatpickr-day.selected,
+.dark-theme .flatpickr-day:hover,
+.dark-theme .flatpickr-day.prevMonthDay:hover,
+.dark-theme .flatpickr-day.nextMonthDay:hover,
+.dark-theme .flatpickr-day:focus,
+.dark-theme .flatpickr-day.prevMonthDay:focus,
+.dark-theme .flatpickr-day.nextMonthDay:focus {
+	background: #80cbc4 !important;
+	color: #fff !important;
+	border-color: #80cbc4 !important;
+}
+
+.flatpickr-day.selected,
+.flatpickr-day:hover,
+.flatpickr-day.prevMonthDay:hover,
+.flatpickr-day.nextMonthDay:hover,
+.flatpickr-day:focus,
+.flatpickr-day.prevMonthDay:focus,
+.flatpickr-day.nextMonthDay:focus {
+	background: #ff5a5f !important;
+	color: #fff !important;
+	border-color: #ff5a5f !important;
+}
+
+.dark-theme .flatpickr-day.flatpickr-disabled,
+.dark-theme .flatpickr-day.flatpickr-disabled:hover,
+/* .dark-theme .flatpickr-day.prevMonthDay, */
+/* .dark-theme .flatpickr-day.nextMonthDay, */
+.dark-theme .flatpickr-day.notAllowed,
+.dark-theme .flatpickr-day.notAllowed.prevMonthDay,
+.dark-theme .flatpickr-day.notAllowed.nextMonthDay,
+.flatpickr-day.flatpickr-disabled,
+.flatpickr-day.flatpickr-disabled:hover,
+/* .flatpickr-day.prevMonthDay, */
+/* .flatpickr-day.nextMonthDay, */
+.flatpickr-day.notAllowed,
+.flatpickr-day.notAllowed.prevMonthDay,
+.flatpickr-day.notAllowed.nextMonthDay {
+  background: transparent !important;
+  border-color: transparent !important;
+}
+
+
+.dark-theme .flatpickr-day.flatpickr-disabled:hover {
+		color: rgba(255,255,255,0.1) !important;
+}
+
+.dark-theme .flatpickr-day.today {
+  border-color: #3f4458 !important;
+}
+
+.flatpickr-day.today {
+  border-color: #fff !important;
+}
+
+.flatpickr-day.flatpickr-disabled, 
+.flatpickr-day.flatpickr-disabled:hover {
+	color: rgba(72,72,72,0.1) !important;
+	background: transparent !important;
+	font-weight: normal !important;
+}
+
+.dark-theme .flatpickr-calendar {
+	-webkit-box-shadow: 1px 0 0 #20222c, -1px 0 0 #20222c, 0 1px 0 #20222c, 0 -1px 0 #20222c, 0 3px 13px rgba(255, 255, 255, 0.08) !important;
+		box-shadow: 1px 0 0 #20222c, -1px 0 0 #20222c, 0 1px 0 #20222c, 0 -1px 0 #20222c, 0 3px 13px rgba(255, 255, 255, 0.08) !important;
+}
