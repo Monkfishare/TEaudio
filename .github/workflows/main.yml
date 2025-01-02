@@ -1,0 +1,35 @@
+name: Run URL Checker
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Pull latest changes
+        run: git pull origin main
+
+      - name: Install dependencies
+        run: |
+          pip install requests tqdm bs4
+
+      - name: Run URL checker script
+        run: |
+          python audio_links.py
+          python audio_playlist.py
+          python check_links.py
+          python cover_image.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Initial commit"
+          git push
